@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#edf2f2"/>
+  <path d="M178 222h115l28 25 28-25h115l-23 84c-11 39-74 41-93 7l-27-49-28 49c-20 34-82 32-93-7z" fill="#1d2428" stroke="#52656c" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M293 222h56" stroke="#52656c" stroke-width="8"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#1d2428">sunglasses</text>
+</svg>

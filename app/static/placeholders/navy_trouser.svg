@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#e6eaee"/>
+  <path d="M256 102h128l24 300h-70l-18-184-20 184h-70z" fill="#1c315f" stroke="#132244" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M256 142h128" stroke="#9fb3d4" stroke-width="8"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#1c315f">navy trouser</text>
+</svg>

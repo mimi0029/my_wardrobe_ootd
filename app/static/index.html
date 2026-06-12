@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>智能衣橱 OOTD</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Wardrobe OOTD MVP</p>
+        <h1>智能衣橱 OOTD</h1>
+      </div>
+      <nav class="tabs" aria-label="主导航">
+        <button class="tab active" data-tab="closet">衣橱</button>
+        <button class="tab" data-tab="recommend">推荐</button>
+        <button class="tab" data-tab="feedback">反馈</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="view active" id="closet">
+        <div class="panel-head">
+          <h2>单品录入</h2>
+          <form class="upload-row" id="uploadForm">
+            <input id="imageFile" name="image" type="file" accept="image/*" />
+            <button type="submit">上传识别</button>
+            <button type="button" class="secondary" id="seedDemo">载入演示衣橱</button>
+          </form>
+        </div>
+        <div class="item-grid" id="itemGrid"></div>
+      </section>
+
+      <section class="view" id="recommend">
+        <div class="recommend-layout">
+          <form class="context-form" id="recommendForm">
+            <label>
+              <span>温度</span>
+              <input name="temperature" type="number" value="30" min="-20" max="45" step="1" />
+            </label>
+            <label>
+              <span>天气</span>
+              <select name="weather">
+                <option>晴</option>
+                <option>多云</option>
+                <option>小雨</option>
+                <option>大风</option>
+                <option>雪</option>
+              </select>
+            </label>
+            <label>
+              <span>UV 指数</span>
+              <input name="uv_index" type="number" value="7" min="0" max="12" step="1" />
+            </label>
+            <label class="check">
+              <input name="sun_protection" type="checkbox" checked />
+              <span>防晒需求</span>
+            </label>
+            <label>
+              <span>场合</span>
+              <select name="occasion">
+                <option>职场通勤</option>
+                <option>周末约会</option>
+                <option>户外运动</option>
+                <option>晚宴</option>
+                <option>日常休闲</option>
+              </select>
+            </label>
+            <label>
+              <span>携带物品</span>
+              <select name="carry_load">
+                <option>少量物品</option>
+                <option>需带电脑/文件</option>
+                <option>运动装备</option>
+              </select>
+            </label>
+            <label>
+              <span>幸运色</span>
+              <input name="lucky_color" type="text" value="米白色" />
+            </label>
+            <button type="submit">生成三套 OOTD</button>
+          </form>
+          <div class="outfit-grid" id="outfitGrid"></div>
+        </div>
+      </section>
+
+      <section class="view" id="feedback">
+        <div class="panel-head">
+          <h2>反馈日志</h2>
+          <button type="button" class="secondary" id="refreshFeedback">刷新</button>
+        </div>
+        <div class="feedback-list" id="feedbackList"></div>
+      </section>
+    </main>
+
+    <template id="itemCardTemplate">
+      <article class="item-card">
+        <img class="item-image" alt="" />
+        <div class="item-fields">
+          <label><span>类别</span><input data-field="category" /></label>
+          <label><span>材质</span><input data-field="material" /></label>
+          <label><span>颜色</span><input data-field="color" /></label>
+          <label><span>风格</span><input data-field="style" /></label>
+          <label class="wide"><span>标签</span><input data-field="tags" /></label>
+        </div>
+        <div class="badge-row"></div>
+        <div class="card-actions">
+          <button class="save-item" type="button">保存</button>
+          <button class="delete-item danger" type="button">删除</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

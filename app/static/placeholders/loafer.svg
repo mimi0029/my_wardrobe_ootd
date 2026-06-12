@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#efe7db"/>
+  <path d="M155 295c70 4 120-18 176-63 53 34 106 48 167 50 37 1 58 21 62 55H140c-5-19 0-35 15-42z" fill="#7c4b2e" stroke="#442817" stroke-width="8"/>
+  <path d="M263 277h143" stroke="#c58c61" stroke-width="10"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#7c4b2e">loafer</text>
+</svg>

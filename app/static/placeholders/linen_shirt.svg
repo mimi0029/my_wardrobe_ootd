@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#eee8da"/>
+  <path d="M235 118 180 174l54 55 25-28v170h122V201l25 28 54-55-55-56-52 24h-66z" fill="#ded2bb" stroke="#6f6657" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M286 142 320 182l34-40" fill="none" stroke="#6f6657" stroke-width="8"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#5d564b">linen shirt</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f2f2ed"/>
+  <path d="M180 280c80 10 135-30 185-78 38 44 76 68 122 73 36 4 55 28 58 63H144c-9-28 4-53 36-58z" fill="#ffffff" stroke="#58616c" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M241 272h145M282 238l38 41M323 224l42 48" stroke="#83a1b7" stroke-width="8"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#58616c">sneaker</text>
+</svg>

@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+data/wardrobe.db
+data/uploads/*
+!data/uploads/.gitkeep

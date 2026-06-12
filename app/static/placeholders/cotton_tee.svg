@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#ece8df"/>
+  <path d="M240 125 185 180l45 48 30-24v165h120V204l30 24 45-48-55-55-48 18h-64z" fill="#faf9f4" stroke="#74706a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M288 145a36 36 0 0 0 64 0" fill="none" stroke="#74706a" stroke-width="8"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#74706a">cotton tee</text>
+</svg>

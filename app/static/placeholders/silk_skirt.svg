@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#edf4f7"/>
+  <path d="M245 120h150l50 280H195z" fill="#9cc7df" stroke="#416a7d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M270 145 238 385M320 145v240M370 145l32 240" stroke="#d9edf5" stroke-width="7"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#416a7d">silk skirt</text>
+</svg>

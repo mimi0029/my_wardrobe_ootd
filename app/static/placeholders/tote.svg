@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f3efe5"/>
+  <path d="M222 170h196l30 210H192z" fill="#d9ccb2" stroke="#6b604d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M270 170c0-58 100-58 100 0" fill="none" stroke="#6b604d" stroke-width="12"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#6b604d">tote bag</text>
+</svg>

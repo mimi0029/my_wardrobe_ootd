@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#ece9e2"/>
+  <path d="M238 210h164v130H238z" fill="#20211f" stroke="#69665f" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M238 210c28-92 134-92 164 0M236 247h168" fill="none" stroke="#69665f" stroke-width="8"/>
+  <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#20211f">crossbody</text>
+</svg>
